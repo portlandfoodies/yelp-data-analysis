@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/yelp-data-analysis/static/css/main.d1b05096.chunk.css",
-    "main.js": "/yelp-data-analysis/static/js/main.0a546203.chunk.js",
-    "main.js.map": "/yelp-data-analysis/static/js/main.0a546203.chunk.js.map",
+    "main.css": "/yelp-data-analysis/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/yelp-data-analysis/static/js/main.100c5787.chunk.js",
+    "main.js.map": "/yelp-data-analysis/static/js/main.100c5787.chunk.js.map",
     "runtime-main.js": "/yelp-data-analysis/static/js/runtime-main.f0c598f1.js",
     "runtime-main.js.map": "/yelp-data-analysis/static/js/runtime-main.f0c598f1.js.map",
-    "static/js/2.a3329ae5.chunk.js": "/yelp-data-analysis/static/js/2.a3329ae5.chunk.js",
-    "static/js/2.a3329ae5.chunk.js.map": "/yelp-data-analysis/static/js/2.a3329ae5.chunk.js.map",
+    "static/css/2.67123b20.chunk.css": "/yelp-data-analysis/static/css/2.67123b20.chunk.css",
+    "static/js/2.f73632d5.chunk.js": "/yelp-data-analysis/static/js/2.f73632d5.chunk.js",
+    "static/js/2.f73632d5.chunk.js.map": "/yelp-data-analysis/static/js/2.f73632d5.chunk.js.map",
     "index.html": "/yelp-data-analysis/index.html",
-    "precache-manifest.222555ce36ff080731d63884fd8637ee.js": "/yelp-data-analysis/precache-manifest.222555ce36ff080731d63884fd8637ee.js",
+    "precache-manifest.54632715a5d127c190539431c77698b7.js": "/yelp-data-analysis/precache-manifest.54632715a5d127c190539431c77698b7.js",
     "service-worker.js": "/yelp-data-analysis/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/yelp-data-analysis/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.a3329ae5.chunk.js.LICENSE": "/yelp-data-analysis/static/js/2.a3329ae5.chunk.js.LICENSE",
-    "static/media/logo.svg": "/yelp-data-analysis/static/media/logo.5d5d9eef.svg"
+    "static/css/2.67123b20.chunk.css.map": "/yelp-data-analysis/static/css/2.67123b20.chunk.css.map",
+    "static/css/main.5ecd60fb.chunk.css.map": "/yelp-data-analysis/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.f73632d5.chunk.js.LICENSE": "/yelp-data-analysis/static/js/2.f73632d5.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.f0c598f1.js",
-    "static/js/2.a3329ae5.chunk.js",
-    "static/css/main.d1b05096.chunk.css",
-    "static/js/main.0a546203.chunk.js"
+    "static/css/2.67123b20.chunk.css",
+    "static/js/2.f73632d5.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.100c5787.chunk.js"
   ]
 }
