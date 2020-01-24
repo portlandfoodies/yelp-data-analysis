@@ -28,10 +28,16 @@ export default class About extends Component {
       <div>
         <br />
         <br />
-        <p align='center'><a href="https://github.com/portlandfoodies/portlandfoodies.github.io">Project Github Repo</a></p>
-        <p align='center'><a href="https://github.com/portlandfoodies/yelp-data-analysis">Project Webpage Repo</a></p>
+
+        
         <Container>
-          <p align='center'><ReactMarkdown source={markdown}/></p>
+          <p align='center'><body>
+            <p><a href="https://github.com/portlandfoodies/portlandfoodies.github.io">Project Github Repo</a></p>
+            <p><a href="https://github.com/portlandfoodies/yelp-data-analysis">Project Webpage Repo</a></p>
+            <br />
+            <ReactMarkdown source={markdown}/>
+            </body>
+          </p>
         </Container>
       </div>
       
