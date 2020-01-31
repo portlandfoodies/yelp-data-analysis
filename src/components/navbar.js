@@ -6,7 +6,7 @@ export default class Navbar extends Component {
 
   render(){
     return(
-      <nav className="navbar navbar-dark bg-dark navbar navbar-expand-sm">
+      <nav className="navbar fixed-top navbar-dark bg-dark navbar navbar-expand-sm">
         <div className="">
           <ul className="navbar-nav mr-auto">
             <li className="navbar-item">

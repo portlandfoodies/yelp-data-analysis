@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import ReactMarkdown from 'react-markdown'
-import {Container, Row, Col} from 'react-bootstrap'
+import {Container} from 'react-bootstrap'
 export default class About extends Component {
   constructor(){
     super()
