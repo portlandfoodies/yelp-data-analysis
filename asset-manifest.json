@@ -1,26 +1,27 @@
 {
   "files": {
     "main.css": "/yelp-data-analysis/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/yelp-data-analysis/static/js/main.216d11c2.chunk.js",
-    "main.js.map": "/yelp-data-analysis/static/js/main.216d11c2.chunk.js.map",
+    "main.js": "/yelp-data-analysis/static/js/main.cd7fdf6d.chunk.js",
+    "main.js.map": "/yelp-data-analysis/static/js/main.cd7fdf6d.chunk.js.map",
     "runtime-main.js": "/yelp-data-analysis/static/js/runtime-main.f0c598f1.js",
     "runtime-main.js.map": "/yelp-data-analysis/static/js/runtime-main.f0c598f1.js.map",
-    "static/css/2.2b33c92c.chunk.css": "/yelp-data-analysis/static/css/2.2b33c92c.chunk.css",
-    "static/js/2.e2f0859c.chunk.js": "/yelp-data-analysis/static/js/2.e2f0859c.chunk.js",
-    "static/js/2.e2f0859c.chunk.js.map": "/yelp-data-analysis/static/js/2.e2f0859c.chunk.js.map",
+    "static/css/2.0988fa45.chunk.css": "/yelp-data-analysis/static/css/2.0988fa45.chunk.css",
+    "static/js/2.80fa4b7d.chunk.js": "/yelp-data-analysis/static/js/2.80fa4b7d.chunk.js",
+    "static/js/2.80fa4b7d.chunk.js.map": "/yelp-data-analysis/static/js/2.80fa4b7d.chunk.js.map",
     "index.html": "/yelp-data-analysis/index.html",
-    "precache-manifest.e6385b1223de64c65230e36f76dcb0f6.js": "/yelp-data-analysis/precache-manifest.e6385b1223de64c65230e36f76dcb0f6.js",
+    "precache-manifest.526423f6ea76cdf49a291f6c25b6569c.js": "/yelp-data-analysis/precache-manifest.526423f6ea76cdf49a291f6c25b6569c.js",
     "service-worker.js": "/yelp-data-analysis/service-worker.js",
-    "static/css/2.2b33c92c.chunk.css.map": "/yelp-data-analysis/static/css/2.2b33c92c.chunk.css.map",
+    "static/css/2.0988fa45.chunk.css.map": "/yelp-data-analysis/static/css/2.0988fa45.chunk.css.map",
     "static/css/main.5ecd60fb.chunk.css.map": "/yelp-data-analysis/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.e2f0859c.chunk.js.LICENSE": "/yelp-data-analysis/static/js/2.e2f0859c.chunk.js.LICENSE",
+    "static/js/2.80fa4b7d.chunk.js.LICENSE": "/yelp-data-analysis/static/js/2.80fa4b7d.chunk.js.LICENSE",
+    "static/media/Categories.png": "/yelp-data-analysis/static/media/Categories.cbefb544.png",
     "static/media/food-header.png": "/yelp-data-analysis/static/media/food-header.1afec609.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f0c598f1.js",
-    "static/css/2.2b33c92c.chunk.css",
-    "static/js/2.e2f0859c.chunk.js",
+    "static/css/2.0988fa45.chunk.css",
+    "static/js/2.80fa4b7d.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.216d11c2.chunk.js"
+    "static/js/main.cd7fdf6d.chunk.js"
   ]
 }
