@@ -101,10 +101,11 @@ export default class App extends Component {
         <br />
         <br />
         <br />
-        <div class='container-fluid center'>
-          <div class='row no-gutters'>
-            <div class='col-md-8'>
-              <Map preferCanvas = {true} style={{ left: '30px', width: '95%',height: '500px' }} center={position} zoom={13} touchZoom={false} scrollWheelZoom={false}>
+
+        <div class='container-fluid'>
+          <div class='row no-gutters' >
+            <div class='col-md-8 col-centered'>
+              <Map preferCanvas = {true} style={{ left: '130px', width: '95%',height: '500px' }} center={position} zoom={13} touchZoom={false} scrollWheelZoom={false}>
                 {this.state.markers.map((m, idx) => 
                   <Marker key={idx} position={[m['coordinates']['latitude'], m['coordinates']['longitude']]} >
                     <Popup>{m.name} <br /> Reviews: {m.review_count} <br /> Rating: {m.rating} </Popup>
@@ -121,7 +122,7 @@ export default class App extends Component {
               </Map>
             </div>
 
-            <div class='col-md-4'>
+            <div class='col-md-4 col-centered' style={{left:'130px'}}>
               <img src={fivestar} onClick={this.mapplot.bind(this, 5)}/>
               <br />
               <br /> 
@@ -136,6 +137,10 @@ export default class App extends Component {
               <img src={threehalfstar} onClick={this.mapplot.bind(this, 3.5)}/>
               <br />
               <br />
+
+              <img src={require('../images/yelpstar_regular/regular_3@2x.png')} onClick={this.mapplot.bind(this, 3)}/>
+              <br />
+              <br />
             
         
             </div>
@@ -145,7 +150,7 @@ export default class App extends Component {
 
           </div>
         </div>
-       
+      
         
           
         
