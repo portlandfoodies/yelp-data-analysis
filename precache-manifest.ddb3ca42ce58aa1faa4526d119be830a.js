@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "727c617b02d51b9aa4499d9efd14bd3c",
+    "revision": "c9288d89aac8468c9f074f9ef2c1634e",
     "url": "/yelp-data-analysis/index.html"
   },
   {
-    "revision": "aa793ff2a6db059eddc7",
+    "revision": "c80f4f30948788f9283d",
     "url": "/yelp-data-analysis/static/css/2.0988fa45.chunk.css"
   },
   {
-    "revision": "df526ab495042ce910c5",
+    "revision": "5b98ed02e28f074369a7",
     "url": "/yelp-data-analysis/static/css/main.5ecd60fb.chunk.css"
   },
   {
-    "revision": "aa793ff2a6db059eddc7",
-    "url": "/yelp-data-analysis/static/js/2.f3db63c4.chunk.js"
+    "revision": "c80f4f30948788f9283d",
+    "url": "/yelp-data-analysis/static/js/2.d5906cc8.chunk.js"
   },
   {
     "revision": "d9e12b33fa1a874d7d287a15e48172eb",
-    "url": "/yelp-data-analysis/static/js/2.f3db63c4.chunk.js.LICENSE"
+    "url": "/yelp-data-analysis/static/js/2.d5906cc8.chunk.js.LICENSE"
   },
   {
-    "revision": "df526ab495042ce910c5",
-    "url": "/yelp-data-analysis/static/js/main.76d28e8e.chunk.js"
+    "revision": "5b98ed02e28f074369a7",
+    "url": "/yelp-data-analysis/static/js/main.1dea9777.chunk.js"
   },
   {
     "revision": "81153907c299d71d3e29",
