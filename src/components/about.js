@@ -28,7 +28,8 @@ export default class About extends Component {
       <div>
         <br />
         <br />
-
+        <br />
+        <br />
         
         <Container>
           <p align='center'><body>
