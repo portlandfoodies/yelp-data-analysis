@@ -35,7 +35,7 @@ export default class App extends Component {
     this.position = [45.52309, -122.64164]
     this.state = {
       markers: [],
-      mapres: "abc",
+      mapres: "",
     }
     
     
@@ -45,14 +45,19 @@ export default class App extends Component {
     const markers = []
     const titles = []
     const businesses = Portlanddata['businesses']
-    for (var x=0 ; x < 1000; x++){
+    var lat, long = 0;
+    for (var x=0 ; x < Portlanddata.businesses.length; x++){
 
       //lat = businesses[x]['coordinates']['latitude']
       //long = businesses[x]['coordinates']['longitude']
       //markers.push({pos : [lat, long], titl: businesses[x]['name'], r_count:businesses[x]['review_count'] })
+
       if(businesses[x].rating === star){
         markers.push(businesses[x])
       }
+      //if(businesses[x].alias.includes("wendys")){
+        //markers.push(businesses[x])
+      //}
     }
     console.log(this.state.markers)
     this.setState({markers, titles})
@@ -160,29 +165,8 @@ export default class App extends Component {
             {this.state.mapres}
         </div>
           
-        <div align='Center' alt='most catagroies in porltand area'>
-          <img src={require('../images/Categories.png')} alt='category' style={{
-              width : '70%',
-             
-            }
-          }/>
+      
 
-          <br />
-          <br />
-
-          <Container>
-            <h1>Insights</h1>
-            <br />
-            <p>
-              Based on this chart, we can see that top category for restaurants in Portland is Breakfast and Bruch 
-            </p>
-          </Container>
-        </div>
-
-        <div align='center'>
-          <img style={{height:'500px', width: '50%'}} src={require('../images/wordcloud_2.png')}></img>
-        </div>
-        
         
   
       
