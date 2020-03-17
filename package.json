@@ -22,8 +22,7 @@
     "react-pdf": "^4.1.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "^3.3.0",
-    "tableau": "0.0.3",
-    "webpack": "^4.42.0"
+    "tableau": "0.0.3"
   },
   "scripts": {
     "predeploy": "npm run build",
