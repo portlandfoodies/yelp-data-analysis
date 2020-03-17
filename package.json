@@ -11,6 +11,7 @@
     "bootstrap": "^4.4.1",
     "cors": "^2.8.5",
     "gh-pages": "^2.2.0",
+    "html-loader": "^0.5.5",
     "leaflet": "^1.6.0",
     "marked": "^0.8.0",
     "react": "^16.12.0",
@@ -18,9 +19,11 @@
     "react-dom": "^16.12.0",
     "react-leaflet": "^2.6.1",
     "react-markdown": "^4.3.1",
+    "react-pdf": "^4.1.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "^3.3.0",
-    "tableau": "0.0.3"
+    "tableau": "0.0.3",
+    "webpack": "^4.42.0"
   },
   "scripts": {
     "predeploy": "npm run build",

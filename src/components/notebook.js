@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import ReactMarkdown from 'react-markdown'
 import {Container} from 'react-bootstrap'
+import notebook from '../md/notebook.md'
 export default class Notebook extends Component {
   constructor(){
     super()
@@ -9,7 +10,7 @@ export default class Notebook extends Component {
     }
   }
   componentDidMount(){
-    const readmefile = "https://raw.githubusercontent.com/portlandfoodies/portlandfoodies.github.io/master/README.md"
+    const readmefile = notebook
     fetch(readmefile).then(response => {
       return response.text()
     }).then(text => {
@@ -44,4 +45,5 @@ export default class Notebook extends Component {
       
     )
   }
+
 }
